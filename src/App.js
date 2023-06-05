@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import './style.css';
 import api from "./services/api";
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -40,6 +41,8 @@ function App() {
           <FiSearch size={25} color="#FFF"/>
           </button>
       </div>
+
+    <Link to="descobrir">Não sabe seu CEP? clique aqui.</Link>
 
       {Object.keys(cep).length > 0 && (
         <main className='main'>

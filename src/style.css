@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +87,11 @@
     .title {
         font-size: 60px;
     }
+}
+
+.listitens{
+display: flex;
+flex-direction: column;
+padding-top: 2rem;
+gap: 2rem;
 }
